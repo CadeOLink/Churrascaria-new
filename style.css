@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 90%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+#comanda {
+  background-color: #b8cad4;
+  width: 30rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
+}
+
+#comanda h1 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#comanda h2 {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 3px;
+}
+
+ul li p {
+  width: 50%;
+}
+
+ul li span {
+  width: 10%;
+}
+ul li .add {
+  width: 13%;
+  margin-right: 5px;
+  background-color: #90ee90;
+}
+ul li .remove {
+  width: 17%;
+  background-color: #ff9090;
+  margin-right: 5px;
+}
+
+ul li .copy {
+  width: 10%;
+}
+
+.transition-between-commands {
+  width: 30rem;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  margin: 0.5rem 0 2rem 0;
+}
+
+.transition-between-commands button {
+  background-color: #666;
+  color: white;
+  height: 2rem;
+  width: 4rem;
+}
+
+button {
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 3px;
+  font-size: 90%;
+
+  transition: 0.2s;
+}
+li:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
