@@ -5,7 +5,7 @@ let createdCommands = 1;
 let totalAmount = [];
 //Criando a array para armazenar os dados
 totalAmount.push([])
-for(let x = 0; x<23; x++){
+for(let x = 0; x<24; x++){
    totalAmount[0].push(0);
    quantityPerCommand.push(0);
 }
