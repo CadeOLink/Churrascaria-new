@@ -5,6 +5,7 @@
 }
 html {
   font-size: 90%;
+  background-color: #101010;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
   font-size: 1rem;
 }
 #comanda {
-  background-color: #b8cad4;
+  background-color: #9588D4;
   width: 30rem;
   margin-top: 2rem;
   padding: 0.5rem;
