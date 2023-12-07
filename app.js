@@ -57,7 +57,7 @@ function proximaComanda(){
 function finalizar(){
     for(let x = 0; x < 23; x++){
       document.getElementById(x).innerHTML = carnesCont[x];
-      document.querySelector('html').style.background = "red";
+      document.querySelector('html').style.background = "#660000";
    }
 }
 
